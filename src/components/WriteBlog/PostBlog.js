@@ -49,7 +49,7 @@ function PostBlog() {
                     <form onSubmit={handleSubmit}>
                         <div className="row">
                             <div className="col col-lg-10">
-                                <h5 className="mb-3">Commit Here Anything</h5>
+                                <h5 className="mb-3">Post your commit</h5>
                                 <div className="form-floating mb-3">
                                     <input type="text" value={title} onChange={(e) => setTitle(e.target.value)} className="form-control" id="floatingInput" placeholder="abcd" required />
                                     <label htmlFor="floatingInput">Title</label>

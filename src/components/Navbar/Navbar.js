@@ -11,7 +11,7 @@ export default function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-success">
             <div className="container-fluid">
-                <Link className="navbar-brand" onClick={()=>setShowDropDown(false)} exact to="/">The Blog</Link>
+                <Link className="navbar-brand" onClick={()=>setShowDropDown(false)} exact to="/">CommitHere</Link>
                 <div>
                     <button className="navbar-toggler" type="button" onClick={handleDropDown} data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
@@ -25,7 +25,7 @@ export default function Navbar() {
                                 <NavLink to="/posts" onClick={handleDropDown} className="nav-link .active">Commits</NavLink>
                             </li>
                             <li className="nav-item">
-                                <NavLink to="/write-blog" onClick={handleDropDown} className="nav-link .active">Commit here</NavLink>
+                                <NavLink to="/write-blog" onClick={handleDropDown} className="nav-link .active">Post your commit</NavLink>
                             </li>
                         </ul>
                     </div>
