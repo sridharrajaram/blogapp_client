@@ -32,7 +32,7 @@ function Posts() {
     return (
         <div className="container mt-3">
             <div className="latest-blog">
-                <h4 className="mb-3">Blog Posts:</h4>
+                <h4 className="mb-3">Posted Commits</h4>
                 <div className="row">
                     {
                         load ? <div className="text-center" style={{ "alignItems": "center" }}>

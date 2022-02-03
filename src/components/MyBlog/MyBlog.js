@@ -35,7 +35,7 @@ function MyBlog() {
         <div className="container mt-3">
             <div className="latest-blog">
                 <div className="head mb-3" style={{ display: "flex", justifyContent: "space-between" }}>
-                    <h4>My Blogs:</h4>
+                    <h4>My Commits:</h4>
                     <NavLink to="/write-blog" className="btn"> Go Back</NavLink>
                 </div>
                 <div className="row">
@@ -44,7 +44,7 @@ function MyBlog() {
                     </div> :
                         <>
                             {
-                                BlogData == "" ? <h4 className="text-center mt-5 text-muted">Empty, Add some Blogs!</h4> :
+                                BlogData == "" ? <h4 className="text-center mt-5 text-muted">Empty, Post some commits!</h4> :
                                     BlogData.map(obj => {
                                         return (
                                             <div className="col col-md-6 col-lg-4 mb-3" >
