@@ -20,7 +20,7 @@ function Home() {
                 </div>
             </div>
             <footer style={{ "position": "absolute", "bottom": "0", "backgroundColor": "mediumseagreen", "width": "100%", "height": "40px" }}>
-                <h6 className="text-center mt-2">© Made with Luv - Sridhar Rajaram ❤❤❤</h6>
+                <h6 className="text-center mt-2">© created by Sridhar Rajaram</h6>
             </footer>
         </>
     )
